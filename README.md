@@ -84,6 +84,7 @@ The repository is organized sequentially so that the learning process can be fol
 | 19 | Feature Construction & Splitting | Constructing useful features and preparing data for ML |
 | 20 | PCA | Dimensionality reduction and understanding Principal Component Analysis |
 | 21 | Simple Linear Regression | Understanding, implementing, and experimenting with Simple Linear Regression |
+| 22 | Regression Metrics | Evaluating regression models using appropriate performance metrics |
 
 > **Note:** The numbering in this repository represents the progression of my own learning material and folder organization. It should not be interpreted as an official numbering of the CampusX playlist.
 
@@ -138,3 +139,4 @@ The repository follows a topic-based structure:
 ├── 19. feature construction & splitting/
 ├── 20. PCA/
 └── 21. Simple Linear Regression/
+└── 22. Regression Metrics/
