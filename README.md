@@ -13,9 +13,9 @@
 
 This repository documents my **100 Days of Machine Learning journey**.
 
-I am following the **CampusX 100 Days of Machine Learning** YouTube playlist as the primary learning roadmap. The playlist follows a structured, practical approach to Machine Learning, beginning with foundational concepts and progressively moving toward data preprocessing, exploratory data analysis, feature engineering, Machine Learning algorithms, model evaluation, and more.
+I am following the **CampusX 100 Days of Machine Learning** YouTube playlist as the primary learning roadmap. The playlist provides a practical progression through Machine Learning concepts, starting from the fundamentals and moving through data handling, exploratory data analysis, preprocessing, feature engineering, dimensionality reduction, regression, optimization, and other Machine Learning topics.
 
-This repository contains the work I do while learning — not just final solutions.
+This repository contains the work I create while learning — not just final solutions.
 
 It includes:
 
@@ -28,9 +28,9 @@ It includes:
 - 🛠️ Feature engineering techniques
 - 🤖 Machine Learning implementations
 - 💾 Serialized models and preprocessing objects where required
-- 📝 Experiments and learning material
+- 📝 Learning notes, experiments, and observations
 
-The repository is **still in progress**. As I continue through the 100 Days of ML roadmap, new topics, notebooks, datasets, experiments, and projects will be added.
+The repository is **still in progress**. As I continue through the roadmap, new topics, notebooks, datasets, experiments, and projects will be added.
 
 ---
 
@@ -43,21 +43,21 @@ Through this repository, I aim to:
 - Build a strong understanding of Machine Learning fundamentals.
 - Learn how to work with real-world datasets.
 - Become comfortable with data cleaning and preprocessing.
-- Understand the reasoning behind different preprocessing techniques.
+- Understand why different preprocessing techniques are used.
 - Practice Exploratory Data Analysis (EDA).
 - Learn feature engineering and feature transformation.
 - Implement Machine Learning algorithms from scratch where useful.
-- Learn how to use `scikit-learn` effectively.
+- Learn to use `scikit-learn` effectively.
 - Understand the complete Machine Learning workflow.
 - Improve my ability to work with Jupyter notebooks and datasets.
 - Maintain a public record of my learning and progress.
-- Gradually move from basic concepts toward more advanced Machine Learning topics.
+- Gradually move from foundational concepts toward more advanced Machine Learning topics.
 
 ---
 
 ## 🗺️ Learning Roadmap
 
-The repository is organized sequentially so that the learning process can be followed from one topic to the next.
+The repository is organized sequentially so the learning process can be followed from one topic to the next.
 
 ### 📚 Current Topics Covered
 
@@ -66,64 +66,48 @@ The repository is organized sequentially so that the learning process can be fol
 | 01 | Toy Project | Building a basic end-to-end ML workflow |
 | 02 | Working with CSV Files | Reading, inspecting, manipulating, and analyzing CSV data |
 | 03 | Working with JSON & SQL | Working with structured data from JSON and SQL sources |
-| 04 | Fetching Data from API | Obtaining data from APIs and converting it into usable datasets |
-| 05 | Web Scraping | Extracting data from websites for analysis |
+| 04 | Fetching Data from API | Obtaining data from APIs and preparing it for analysis |
+| 05 | Web Scraping | Extracting useful data from websites |
 | 06 | Understanding the Data | Asking questions, descriptive analysis, and exploratory data analysis |
-| 07 | Standardization | Scaling numerical features using standardization techniques |
-| 08 | Normalization | Applying normalization and comparing different scaling approaches |
+| 07 | Standardization | Scaling numerical features using standardization |
+| 08 | Normalization | Applying and comparing different normalization techniques |
 | 09 | Encoding for Categorical Data | Converting categorical variables into numerical representations |
 | 10 | Column Transformer | Applying different preprocessing operations to different columns |
-| 11 | Scikit-learn Pipelines | Building reproducible preprocessing and ML workflows with pipelines |
-| 12 | Function Transformations | Applying mathematical transformations to improve data distributions |
-| 13 | Power Transformations | Using power transformations such as Box-Cox and related techniques |
+| 11 | Scikit-learn Pipelines | Building reproducible preprocessing and ML workflows |
+| 12 | Function Transformations | Applying mathematical transformations to numerical features |
+| 13 | Power Transformations | Using power transformations to improve data distributions |
 | 14 | Binning & Binarization | Converting continuous variables into bins and binary representations |
 | 15 | Working with Mixed Data | Handling datasets containing both numerical and categorical features |
 | 16 | Working with Date & Time | Extracting and engineering useful information from date/time data |
 | 17 | Handling Missing Data | Exploring and implementing different missing-value imputation strategies |
 | 18 | Outlier Detection | Detecting and handling outliers using statistical methods |
 | 19 | Feature Construction & Splitting | Constructing useful features and preparing data for ML |
-| 20 | PCA | Dimensionality reduction and understanding Principal Component Analysis |
-| 21 | Simple Linear Regression | Understanding, implementing, and experimenting with Simple Linear Regression |
+| 20 | PCA | Understanding Principal Component Analysis and dimensionality reduction |
+| 21 | Simple Linear Regression | Understanding and implementing Simple Linear Regression |
 | 22 | Regression Metrics | Evaluating regression models using appropriate performance metrics |
+| 23 | Multiple Linear Regression | Modeling relationships using multiple independent variables |
+| 24 | Assumptions of Linear Regression | Understanding and checking the assumptions behind linear regression |
+| 25 | Gradient Descent | Understanding and implementing gradient-based optimization |
+| 26 | Types of Gradient Descent | Exploring Batch, Stochastic, and Mini-Batch Gradient Descent |
+| 27 | Polynomial Regression | Modeling non-linear relationships using polynomial features |
 
-> **Note:** The numbering in this repository represents the progression of my own learning material and folder organization. It should not be interpreted as an official numbering of the CampusX playlist.
+> **Note:** The numbering in this repository represents the progression of my own learning material and folder organization. It should not be interpreted as the official numbering of the CampusX playlist.
 
 ---
 
 ## 📂 Repository Structure
 
-The repository follows a topic-based structure:
+The repository follows a simple topic-based structure. Only the main topic folders are listed here so that the structure remains clean and consistent.
 
 ```text
 100-days-ML/
 │
 ├── 01. toy project/
-│   ├── demo.ipynb
-│   ├── placement.csv
-│   └── model.pkl
-│
 ├── 02. working with csv files/
-│   ├── csv-files.ipynb
-│   └── datasets...
-│
 ├── 03. working with json-sql/
-│   ├── json-sql.ipynb
-│   └── train.json
-│
 ├── 04. fetching data from api/
-│   ├── tmdb-api.ipynb
-│   └── movies.csv
-│
 ├── 05. web-scraping/
-│   ├── ambitionbox-web-scraping.ipynb
-│   └── companies.csv
-│
 ├── 06. understanding the data/
-│   ├── asking questions about the data/
-│   ├── EDA using univariate analysis/
-│   ├── EDA using bivariate and multivariate analysis/
-│   └── Pandas profiling/
-│
 ├── 07. standardization/
 ├── 08. normalization/
 ├── 09. encoding for categorical data/
@@ -138,5 +122,291 @@ The repository follows a topic-based structure:
 ├── 18. outlier detection/
 ├── 19. feature construction & splitting/
 ├── 20. PCA/
-└── 21. Simple Linear Regression/
-└── 22. Regression Metrics/
+├── 21. Simple Linear Regression/
+├── 22. Regression Metrics/
+├── 23. Multiple Linear Regression/
+├── 24. Assumptions of Linear Regression/
+├── 25. Gradient Descent/
+├── 26. Types of Gradient Descent/
+└── 27. Polynomial Regression/
+```
+
+Each topic folder may contain one or more notebooks, datasets, models, or supporting files depending on the topic.
+
+---
+
+## 🧰 Tools & Technologies
+
+### Programming
+- **Python**
+
+### Development Environment
+- **Jupyter Notebook**
+- **Anaconda**
+
+### Data Analysis
+- **NumPy**
+- **Pandas**
+
+### Data Visualization
+- **Matplotlib**
+- **Seaborn**
+
+### Machine Learning
+- **scikit-learn**
+
+### Data & File Formats
+- CSV
+- JSON
+- SQL
+- HTML
+- TSV
+
+### Version Control
+- **Git**
+- **GitHub**
+
+---
+
+## 🔬 Topics I'm Exploring
+
+### Data Acquisition
+- Reading CSV files
+- Working with JSON
+- Working with SQL data
+- Fetching data from APIs
+- Web scraping
+
+### Data Understanding & EDA
+- Understanding datasets
+- Asking meaningful questions about data
+- Univariate analysis
+- Bivariate analysis
+- Multivariate analysis
+- Descriptive statistics
+- Pandas profiling
+
+### Data Preprocessing
+- Standardization
+- Normalization
+- Min-Max scaling
+- Max-Absolute scaling
+- Robust scaling
+- One-hot encoding
+- Ordinal encoding
+- Column transformations
+- Scikit-learn pipelines
+
+### Feature Engineering
+- Function transformations
+- Power transformations
+- Binning
+- Binarization
+- Date/time feature extraction
+- Feature construction
+- Feature splitting
+- Handling mixed data types
+
+### Missing Data
+Experiments with different approaches to missing-value handling, including:
+
+- Mean/median imputation
+- Arbitrary-value imputation
+- End-of-distribution imputation
+- Frequent-category imputation
+- Missing-category imputation
+- Random imputation
+- Missing indicators
+- KNN imputation
+- Multivariate imputation
+- MICE
+
+### Outlier Detection
+Experiments with:
+
+- Z-score based methods
+- Capping
+- IQR-based methods
+- Percentile-based methods
+
+### Dimensionality Reduction
+- Principal Component Analysis (PCA)
+- Explained variance
+- Selecting the number of components
+- Transforming high-dimensional data into lower-dimensional representations
+
+### Regression
+Current regression work includes:
+
+- Simple Linear Regression
+- Multiple Linear Regression
+- Polynomial Regression
+- Regression metrics
+- Regression assumptions
+- Gradient Descent
+- Batch Gradient Descent
+- Stochastic Gradient Descent
+- Mini-Batch Gradient Descent
+- Building regression implementations from scratch
+
+---
+
+## 🧪 Learning Approach
+
+I am using this repository as a **learning journal**, so the notebooks may contain:
+
+- Concept explanations
+- Code experiments
+- Dataset exploration
+- Visualizations
+- Comparisons between techniques
+- Experiments with different parameters
+- Intermediate attempts
+- Practical observations
+- Model outputs
+- My understanding of the topic
+
+The goal is not to make every notebook production-ready. The goal is to **learn, experiment, make mistakes, understand them, and improve**.
+
+---
+
+## 📈 Progress
+
+### Current Status: 🚧 In Progress
+
+Current documented progression:
+
+**01 → 27**
+
+The repository currently covers topics ranging from data acquisition and exploratory analysis to preprocessing, feature engineering, PCA, regression, regression metrics, optimization, and polynomial regression.
+
+More topics will be added as I continue the 100 Days of Machine Learning journey.
+
+### Progress Philosophy
+
+> **Consistency over speed. Understanding over completion. Practice over passive learning.**
+
+The objective is to complete the journey with a practical understanding of Machine Learning concepts and workflows rather than simply reaching "Day 100."
+
+---
+
+## ▶️ Learning Resource
+
+This journey is primarily based on the **CampusX – 100 Days of Machine Learning** YouTube playlist.
+
+🔗 **Playlist:**  
+https://youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH
+
+### Official CampusX Resources
+
+**CampusX 100 Days of Machine Learning GitHub Repository**  
+https://github.com/campusx-official/100-days-of-machine-learning
+
+---
+
+## 🙏 Credits & Acknowledgement
+
+A major part of the learning roadmap and educational guidance for this repository comes from the **CampusX 100 Days of Machine Learning** playlist.
+
+Special thanks to **CampusX** for creating an extensive educational resource that I am using as the foundation for this learning journey.
+
+This repository is **my personal implementation and learning record**. It is not an official CampusX repository.
+
+For the original teaching material, please refer to the official CampusX resources linked above.
+
+---
+
+## 💡 Why I Created This Repository
+
+Learning Machine Learning involves many connected concepts:
+
+```text
+Python
+   ↓
+Data
+   ↓
+Data Cleaning
+   ↓
+EDA
+   ↓
+Feature Engineering
+   ↓
+Preprocessing
+   ↓
+Machine Learning
+   ↓
+Optimization
+   ↓
+Model Evaluation
+   ↓
+Projects
+```
+
+I wanted to create one place where I could keep track of what I learn and, more importantly, **what I actually implement**.
+
+This repository therefore serves as:
+
+- 📖 A personal learning journal
+- 🧪 An experimentation space
+- 📚 A revision resource
+- 📂 A collection of notebooks and datasets
+- 📈 A record of my progress
+- 💼 A portfolio of practical learning
+
+---
+
+## 🚀 Future Plans
+
+As I continue the 100 Days of ML journey, I plan to expand this repository with topics such as:
+
+- More regression techniques
+- Classification
+- Model evaluation
+- Cross-validation
+- Hyperparameter tuning
+- Decision trees
+- Ensemble methods
+- Random forests
+- Boosting techniques
+- Clustering
+- Model interpretation
+- Advanced feature engineering
+- End-to-end Machine Learning projects
+- Model deployment
+
+The roadmap will continue to evolve as I progress through the learning material.
+
+---
+
+## 📌 Disclaimer
+
+This repository contains my personal learning work while following the CampusX 100 Days of Machine Learning playlist.
+
+The educational material and overall learning roadmap are credited to their respective creators. The notebooks, code implementations, experiments, organization, and observations in this repository represent my own learning process.
+
+For the original teaching material, please refer to the official CampusX resources linked above.
+
+---
+
+## ⭐ If You're Also Learning ML
+
+If you're following a similar Machine Learning roadmap, you can use this repository as a reference for the practical side of the journey.
+
+However, I strongly recommend **writing the code yourself, experimenting with the datasets, and trying to understand why each technique works** instead of simply copying notebooks.
+
+---
+
+## 📬 Repository Status
+
+**Status:** 🚧 Actively maintained  
+**Journey:** 100 Days of Machine Learning  
+**Current Progress:** 27 topics documented  
+**Learning Source:** CampusX  
+**Environment:** Jupyter Notebook / Anaconda  
+**Primary Language:** Python
+
+---
+
+### 🔖 Keep Learning. Keep Building. Keep Experimenting.
+
+> **100 days is not the destination — it's the foundation.**
