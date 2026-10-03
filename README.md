@@ -90,6 +90,9 @@ The repository is organized sequentially so the learning process can be followed
 | 25 | Gradient Descent | Understanding and implementing gradient-based optimization |
 | 26 | Types of Gradient Descent | Exploring Batch, Stochastic, and Mini-Batch Gradient Descent |
 | 27 | Polynomial Regression | Modeling non-linear relationships using polynomial features |
+| 28 | Ridge Regression | Exploring L2 regularization and its effect on linear regression |
+| 29 | Lasso Regression | Exploring L1 regularization and feature selection |
+| 30 | ElasticNet | Combining L1 and L2 regularization for linear regression |
 
 > **Note:** The numbering in this repository represents the progression of my own learning material and folder organization. It should not be interpreted as the official numbering of the CampusX playlist.
 
@@ -128,7 +131,10 @@ The repository follows a simple topic-based structure. Only the main topic folde
 ├── 24. Assumptions of Linear Regression/
 ├── 25. Gradient Descent/
 ├── 26. Types of Gradient Descent/
-└── 27. Polynomial Regression/
+├── 27. Polynomial Regression/
+├── 28. Ridge Regression/
+├── 29. Lasso Regression/
+└── 30. ElasticNet/
 ```
 
 Each topic folder may contain one or more notebooks, datasets, models, or supporting files depending on the topic.
@@ -247,6 +253,10 @@ Current regression work includes:
 - Batch Gradient Descent
 - Stochastic Gradient Descent
 - Mini-Batch Gradient Descent
+- Ridge Regression
+- Lasso Regression
+- ElasticNet
+- L1 and L2 regularization
 - Building regression implementations from scratch
 
 ---
@@ -276,9 +286,9 @@ The goal is not to make every notebook production-ready. The goal is to **learn,
 
 Current documented progression:
 
-**01 → 27**
+**01 → 30**
 
-The repository currently covers topics ranging from data acquisition and exploratory analysis to preprocessing, feature engineering, PCA, regression, regression metrics, optimization, and polynomial regression.
+The repository currently covers topics ranging from data acquisition and exploratory analysis to preprocessing, feature engineering, PCA, regression, optimization, and regularization.
 
 More topics will be added as I continue the 100 Days of Machine Learning journey.
 
@@ -400,7 +410,7 @@ However, I strongly recommend **writing the code yourself, experimenting with th
 
 **Status:** 🚧 Actively maintained  
 **Journey:** 100 Days of Machine Learning  
-**Current Progress:** 27 topics documented  
+**Current Progress:** 30 topics documented  
 **Learning Source:** CampusX  
 **Environment:** Jupyter Notebook / Anaconda  
 **Primary Language:** Python
